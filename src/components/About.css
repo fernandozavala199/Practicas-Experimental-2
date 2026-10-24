@@ -1,0 +1,38 @@
+.about-section {
+  background: #0f0f1a;
+}
+
+.text-gradient-about {
+  background: linear-gradient(135deg, #6c63ff, #38bdf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-visual {
+  background: rgba(26, 26, 46, 0.6);
+  border: 1px solid rgba(108, 99, 255, 0.2);
+  border-radius: 20px;
+}
+
+.about-stat-card {
+  background: rgba(15, 15, 26, 0.8);
+  border: 1px solid rgba(108, 99, 255, 0.15);
+  border-radius: 14px;
+  transition: transform 0.3s;
+}
+
+.about-stat-card:hover {
+  transform: translateY(-4px);
+}
+
+.team-card {
+  background: rgba(26, 26, 46, 0.7);
+  border: 1px solid rgba(108, 99, 255, 0.15);
+  border-radius: 16px;
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.team-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(108, 99, 255, 0.45);
+}

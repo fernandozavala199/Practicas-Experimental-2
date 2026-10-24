@@ -1,0 +1,26 @@
+/* ========== Global Styles ========== */
+:root {
+  --primary: #6c63ff;
+  --primary-dark: #574fd6;
+  --dark: #0f0f1a;
+  --dark-card: #1a1a2e;
+  --light-text: #c8c8e8;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--dark);
+  color: #ffffff;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--dark); }
+::-webkit-scrollbar-thumb { background: var(--primary); border-radius: 4px; }

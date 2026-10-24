@@ -1,0 +1,35 @@
+.pricing-section {
+  background: linear-gradient(180deg, #12122a 0%, #0f0f1a 100%);
+}
+
+.text-gradient-price {
+  background: linear-gradient(135deg, #6c63ff, #34d399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pricing-card {
+  background: rgba(26, 26, 46, 0.7);
+  border: 1px solid rgba(108, 99, 255, 0.15);
+  border-radius: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pricing-card:hover {
+  transform: translateY(-6px);
+}
+
+.pricing-popular {
+  border-color: rgba(108, 99, 255, 0.6) !important;
+  box-shadow: 0 0 40px rgba(108, 99, 255, 0.2);
+  background: rgba(30, 28, 60, 0.85) !important;
+}
+
+.pricing-toggle {
+  background-color: rgba(108, 99, 255, 0.3) !important;
+}
+
+.pricing-toggle:checked {
+  background-color: #6c63ff !important;
+  border-color: #6c63ff !important;
+}

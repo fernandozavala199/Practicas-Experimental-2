@@ -1,0 +1,38 @@
+.footer-section {
+  background: linear-gradient(180deg, #0f0f1a 0%, #080810 100%);
+  border-top: 1px solid rgba(108, 99, 255, 0.15);
+}
+
+.brand-gradient-footer {
+  background: linear-gradient(90deg, #6c63ff, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-link {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-link:hover {
+  color: #6c63ff !important;
+}
+
+.social-btn {
+  text-decoration: none;
+  border: 1px solid rgba(108, 99, 255, 0.2);
+  background: rgba(26, 26, 46, 0.6);
+  transition: background 0.2s, border-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+.social-btn:hover {
+  background: rgba(108, 99, 255, 0.25);
+  border-color: rgba(108, 99, 255, 0.6);
+  color: #a78bfa !important;
+  transform: translateY(-3px);
+}
+
+.footer-divider {
+  height: 1px;
+  background: rgba(108, 99, 255, 0.15);
+}

@@ -1,0 +1,30 @@
+.navbar-transparent {
+  background: transparent;
+  transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+.navbar-scrolled {
+  background: rgba(15, 15, 26, 0.95) !important;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 2px 20px rgba(108, 99, 255, 0.2);
+  transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+.brand-gradient {
+  background: linear-gradient(90deg, #6c63ff, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-link-custom {
+  color: rgba(255,255,255,0.85) !important;
+  font-weight: 500;
+  padding: 0.4rem 0.8rem !important;
+  border-radius: 8px;
+  transition: color 0.2s, background 0.2s;
+}
+
+.nav-link-custom:hover {
+  color: #fff !important;
+  background: rgba(108, 99, 255, 0.15);
+}
